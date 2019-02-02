@@ -1,0 +1,58 @@
+/* 
+  CSS for html_review.html
+*/
+body{
+    font-family: 'Helvetica';
+}
+
+.navbar {
+    color: white;
+    background: black;
+}
+
+.navbar ul {
+    list-style: none;
+}
+
+.navbar-items {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.navbar-item {
+    padding: 8px 16px;
+}
+
+.header-image {
+    width:80%;
+}
+
+.link-options {
+    list-style: none;
+    font-size: 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.bordered {
+    border: 1px solid black;
+    margin: 4px 0;
+    padding: 8px 0;
+}
+
+.link-options li {
+    margin: 8px;
+    padding: 20px;
+    width: 25%;
+    display: flex;
+    justify-content: center;
+}
+
+@media all and (max-width: 768px) and (min-width: 0px) {
+    .navbar-items {
+        display:flex; 
+        flex-direction: column;
+    }
+}
