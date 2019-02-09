@@ -1,0 +1,29 @@
+body {
+    font-family: comic sans ms;
+}
+
+a {
+    color: red;
+    text-decoration: none;
+}
+
+a.hover-orange:hover {
+    color: orange;
+}
+
+a.hover-purple:hover {
+    color: purple;
+}
+
+a.hover-green:hover {
+    color: green;
+}
+.hover-expand {
+    transform: scale(1);
+    transition: transform 0.3s ease;
+}
+
+.hover-expand:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+}

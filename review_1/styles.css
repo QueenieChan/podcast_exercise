@@ -1,0 +1,15 @@
+h1 {
+    color: black;
+}
+.podcast_list {
+    list-style: none; 
+}
+.podcast_image {
+    padding: 5px;
+    width: 100px;
+    margin: 10px;
+}
+.list_direction {
+    display: flex;
+    flex-direction: row; 
+}
