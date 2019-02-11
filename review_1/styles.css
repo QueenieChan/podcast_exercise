@@ -1,15 +1,29 @@
 h1 {
     color: black;
 }
-.podcast_list {
-    list-style: none; 
-}
 .podcast_image {
-    padding: 5px;
     width: 100px;
-    margin: 10px;
+    display: block;
+    padding: 10px;
 }
-.list_direction {
-    display: flex;
-    flex-direction: row; 
+.list-item {
+    width: 50%;
+    margin-bottom: 20px;
+}
+ol {
+    list-style: none;
+    display: flex; 
+    flex-flow: row wrap;
+}
+
+@media screen and (max-width:480px)  {
+    ol {
+        list-style: none;
+    }
+    .list-item{
+        width: 100%;
+    }
+    .podcast_image{
+        width: 90%;
+    }
 }
